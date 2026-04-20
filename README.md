@@ -18,20 +18,20 @@ No animation libraries, no UI kits. Social icons are inline SVG.
 
 ## Structure
 
-src/
-├── components/
-│   ├── Hero.jsx / HeroCanvas.jsx   — name, tagline, particle mesh
-│   ├── About.jsx
-│   ├── Skills.jsx
-│   ├── Projects.jsx                — 7 project cards
-│   ├── Experience.jsx              — 10-entry chronological timeline
-│   ├── BeyondCode.jsx              — horizontal polaroid gallery
-│   ├── Contact.jsx                 — Web3Forms-backed form
-│   ├── Navbar.jsx
-│   └── Footer.jsx
-├── assets/                         — photos, auto-imported via import.meta.glob
-├── index.css
-└── App.jsx
+    src/
+    ├── components/
+    │   ├── Hero.jsx / HeroCanvas.jsx   — name, tagline, particle mesh
+    │   ├── About.jsx
+    │   ├── Skills.jsx
+    │   ├── Projects.jsx                — 7 project cards
+    │   ├── Experience.jsx              — 10-entry chronological timeline
+    │   ├── BeyondCode.jsx              — horizontal polaroid gallery
+    │   ├── Contact.jsx                 — Web3Forms-backed form
+    │   ├── Navbar.jsx
+    │   └── Footer.jsx
+    ├── assets/                         — photos, auto-imported via import.meta.glob
+    ├── index.css
+    └── App.jsx
 
 ## Local development
 
