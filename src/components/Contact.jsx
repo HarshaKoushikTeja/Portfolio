@@ -48,7 +48,7 @@ export default function Contact() {
             <h2 className="section-title">Get In Touch</h2>
           </div>
 
-          <div className="grid-stack" style={{ display: 'grid', gridTemplateColumns: '1fr 1.5fr', gap: '4rem', alignItems: 'start' }}>
+          <div className="grid-stack contact-grid">
             <div className="contact-links">
               {LINKS.map(link => (
                 <div key={link.label} style={{ marginBottom: '2.5rem' }}>
@@ -57,7 +57,7 @@ export default function Contact() {
                     href={link.href} 
                     target="_blank" 
                     rel="noreferrer"
-                    className="card-title"
+                    className="card-title contact-link"
                     style={{ textDecoration: 'none', display: 'block', color: 'var(--text-primary)', transition: 'color 0.2s' }}
                     onMouseEnter={e => e.target.style.color = 'var(--accent-terracotta)'}
                     onMouseLeave={e => e.target.style.color = 'var(--text-primary)'}

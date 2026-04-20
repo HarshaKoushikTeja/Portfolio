@@ -36,18 +36,17 @@ export default function Navbar() {
               </button>
             </li>
           ))}
-          <li style={{ display: 'flex', alignItems: 'center' }}>
+          <li>
             <a href="/HarshaKoushikTejaAila_Resume.pdf" download className="nav-resume">
               Resume
             </a>
           </li>
         </ul>
 
-        {/* Keeping hamburger indicator for mobile but hidden in desktop CSS */}
         <button 
           className={`hamburger${menuOpen ? ' open' : ''}`} 
-          style={{ display: 'none' }} /* Logic handled by CSS media queries */
           onClick={() => setMenuOpen(!menuOpen)}
+          aria-label="Toggle menu"
         >
           <span></span><span></span><span></span>
         </button>
