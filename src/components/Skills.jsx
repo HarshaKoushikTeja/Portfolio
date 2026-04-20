@@ -39,7 +39,7 @@ export default function Skills() {
 
           <div className="grid-stack">
             {SKILLS.map((skillGroup) => (
-              <div key={skillGroup.category} className="glass-card" style={{ padding: '2rem' }}>
+              <div key={skillGroup.category} className="glass-card skill-card">
                 <h3 className="mono" style={{ marginBottom: '1.5rem', color: 'var(--text-primary)' }}>
                   {skillGroup.category}
                 </h3>

@@ -483,6 +483,14 @@ h1, h2, h3, h4 {
 }
 
 /* Contact Form */
+.contact-card {
+  padding: 3rem;
+}
+
+.skill-card, .experience-card {
+  padding: 2rem;
+}
+
 .contact-form {
   display: grid;
   gap: 1.5rem;
@@ -635,6 +643,20 @@ h1, h2, h3, h4 {
 
   .hamburger.open span:nth-child(3) {
     transform: translateY(-7px) rotate(-45deg);
+  }
+
+  .container {
+    width: 100%;
+    padding: 0 1.5rem;
+  }
+
+  .liquid-glass-section {
+    padding: 2rem 1.5rem;
+    border-radius: 24px;
+  }
+
+  .project-card, .skill-card, .experience-card, .contact-card {
+    padding: 1.5rem;
   }
 
   .contact-grid {

@@ -87,7 +87,7 @@ export default function Experience() {
             {TIMELINE.map((item, i) => (
               <div key={i} className="timeline-item">
                 <span className="timeline-date">{item.date}</span>
-                <div className="glass-card" style={{ padding: '2rem' }}>
+                <div className="glass-card experience-card">
                   <h3 className="card-title" style={{ marginBottom: '0.25rem' }}>{item.title}</h3>
                   <p className="mono" style={{ textTransform: 'none', color: 'var(--accent-terracotta)', marginBottom: '1rem' }}>
                     {item.organization}

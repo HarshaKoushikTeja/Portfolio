@@ -68,7 +68,7 @@ export default function Contact() {
               ))}
             </div>
 
-            <div className="glass-card" style={{ padding: '3rem' }}>
+            <div className="glass-card contact-card">
               <form onSubmit={handleSubmit} ref={formRef} className="contact-form">
                 <input type="text" name="name" placeholder="Full Name" className="form-input" required />
                 <input type="email" name="email" placeholder="Email Address" className="form-input" required />
