@@ -9,6 +9,20 @@ const TIMELINE = [
     tags: ['Data Science', 'ML Engineering', 'Analytics']
   },
   {
+    title: 'Multi-Label Node Classification: Classical Embeddings vs GNNs',
+    organization: 'Project',
+    date: '2026',
+    description: 'Led a 6-person team on classical graph embeddings, then independently extended into a 7-method GNN benchmark with multi-seed validation and compute profiling.',
+    tags: ['Python', 'PyTorch Geometric', 'scikit-learn']
+  },
+  {
+    title: 'Distributed Data Processing Pipeline',
+    organization: 'Project',
+    date: '2025',
+    description: 'Real-time Kafka → Neo4j streaming analytics pipeline with PageRank and BFS, orchestrated on Kubernetes with Docker.',
+    tags: ['Kafka', 'Neo4j', 'Docker', 'Kubernetes']
+  },
+  {
     title: 'System Gesture Control',
     organization: 'Project',
     date: '2026',
@@ -44,25 +58,11 @@ const TIMELINE = [
     tags: ['Python', 'Vosk', 'LLM APIs']
   },
   {
-    title: 'Meal Master',
-    organization: 'Project',
-    date: '2024',
-    description: 'Recipe recommendation web app with LLM API integration for dynamic meal suggestions.',
-    tags: ['JavaScript', 'LLM API', 'HTML/CSS']
-  },
-  {
     title: 'Salesforce Developer Virtual Intern',
     organization: 'SmartInternz',
     date: 'Nov 2023 – Jan 2024',
     description: 'Developed Apex workflows, batch jobs, and Lightning Web Components for enterprise use cases. Integrated REST APIs and implemented CI/CD pipelines using GitHub Actions, maintaining high unit test coverage across deployments.',
     tags: ['Apex', 'Lightning Web Components', 'REST APIs', 'GitHub Actions', 'CI/CD']
-  },
-  {
-    title: 'REST API Framework',
-    organization: 'Project',
-    date: '2023',
-    description: 'Modular Express.js backend framework with reusable middleware, scalable routing, and standardized authentication.',
-    tags: ['Node.js', 'Express.js', 'REST']
   },
   {
     title: 'B.Tech Computer Science',

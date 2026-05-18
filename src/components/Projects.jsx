@@ -34,16 +34,16 @@ const PROJECTS = [
     link: `${GH}/EState`
   },
   {
-    title: 'Meal Master',
-    description: 'Developed a recipe recommendation web app with LLM API integration, generating dynamic meal suggestions based on user inputs.',
-    tags: ['API Integration', 'JavaScript', 'HTML/CSS'],
-    link: `${GH}/Meal_Master`
+    title: 'Multi-Label Node Classification: Classical Embeddings vs GNNs',
+    description: 'Led a 6-person team implementing DeepWalk and Node2Vec from scratch for multi-label node classification across 3 benchmark graphs, then independently extended it into a 7-method benchmark adding GCN, GraphSAGE, and GAT. Multi-seed evaluation surfaced GAT training instability hidden by single runs; compute profiling quantified that standard GAT required 84× more training time and 27× more GPU memory than GraphSAGE on featureless graphs.',
+    tags: ['Python', 'PyTorch Geometric', 'scikit-learn', 'gensim', 'NetworkX'],
+    link: 'https://github.com/HarshaKoushikTeja/MultiLabel-NodeClassification'
   },
   {
-    title: 'REST API Framework',
-    description: 'Designed a modular backend framework with Express.js, featuring reusable middleware, scalable routing, and standardized authentication patterns.',
-    tags: ['Node.js', 'Express.js', 'REST'],
-    link: `${GH}/REST-API`
+    title: 'Distributed Data Processing Pipeline',
+    description: 'Real-time streaming analytics pipeline ingesting NYC taxi data through Apache Kafka, transforming via Kafka Connect, persisting as a graph in Neo4j, and running PageRank and BFS — orchestrated on Kubernetes. Containerized the full stack with Docker for fault-tolerant, reproducible multi-container deployment.',
+    tags: ['Kafka', 'Neo4j', 'Docker', 'Kubernetes', 'Python'],
+    link: 'https://github.com/HarshaKoushikTeja/Distributed-Data-Pipeline'
   }
 ];
 
