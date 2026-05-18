@@ -2,7 +2,7 @@
 
 Personal portfolio — ML, analytics, full-stack.
 
-**Live:** https://harsha-portfolio.netlify.app
+**Live:** https://harshaaila.netlify.app
 
 Built with React and Vite. Single page, dark theme, liquid glass aesthetic. One
 animated canvas in the hero, everything else kept deliberately quiet.
@@ -74,5 +74,5 @@ npm run preview    # serve the production build locally
 
 ## Contact
 
-Email: haila1@asu.edu
+Email: haila1@asu.edu & harshaus33@gmail.com
 LinkedIn: https://www.linkedin.com/in/aila-harsha-koushik-teja
